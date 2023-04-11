@@ -1,0 +1,133 @@
+/* Login */
+
+@import url('https://fonts.googleapis.com/css?family=poppins');
+
+body,
+html {
+    font-family: 'poppins', sans-serif;
+    /* -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; */
+}
+
+.path-div {
+    background: url('./img/Path.png') no-repeat;
+    background-size: 630px;
+    background-position-y: 80px;
+    background-position-x: -250px;
+    /* background-position: right; */
+}
+
+.gps-div {
+    /* width: 100vw; */
+    height: 100vh;
+    width: 830px;
+    /* height: 900px; */
+    background: transparent url('./img/gps.png') 0% 0% no-repeat padding-box;
+    border-radius: 50px 0px 0px 50px;
+    opacity: 0.9;
+}
+
+.img-L {
+    padding-top: 40px;
+    padding-left: 83px;
+    /* padding-left: calc(100% - 700px); */
+}
+
+.w-h {
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 83px;
+    font-size: 50px;
+    color: #000024;
+    opacity: 0.7;
+}
+
+.w-p {
+    padding-left: 83px;
+    font-size: 25px;
+    color: #374550;
+}
+
+.w-span {
+    padding-left: 123px;
+    padding-top: 100px;
+}
+
+.w-span-p {
+    padding-left: 123px;
+    padding-top: 25px;
+}
+
+.input-div {
+    padding-left: 83px;
+}
+
+.s-input {
+    border: 1px solid #666666;
+    border-radius: 20px;
+    padding-left: 40px;
+    opacity: 0.4;
+    width: 507px;
+    height: 61px;
+}
+
+/* .s-input:focus {
+    border: 1px solid #E78901;
+} */
+
+.span-fp {
+    padding-top: 11px;
+    padding-left: 440px;
+}
+
+.btn-login {
+    width: 507px;
+    height: 61px;
+    color: white;
+    background-color: #000024;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.span-btw {
+    /* padding-top: 34px; */
+    padding-left: 269px;
+}
+
+/* Dashboard */
+.dash-h {
+    font-size: 80px;
+    color: #020225;
+    padding-bottom: 20px;
+}
+
+.flex-div {
+    width: 300px;
+    height: 126px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-right: 17px;
+}
+
+.flex-div h1 {
+    padding-left: 21px;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.flex-div-w {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px #0000001C;
+    border-radius: 30px;
+    margin-right: 17px;
+}
+
+.flex-div-w h1 {
+    padding-left: 21px;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
